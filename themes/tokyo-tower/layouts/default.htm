@@ -1,0 +1,135 @@
+==
+<!doctype html>
+<html lang="vi_VN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="___csrf_token___">
+
+    <title>{{this.page.title}} - Chung cu Tokyo Tower</title>
+
+    <link rel="stylesheet" href="{{'assets/builds/dist/css/app.css'|theme}}">
+</head>
+<body>
+<div id="app">
+    <div class="app-template">
+        <nav class="navigation navbar-fixed-top">
+            <div class="container relative">
+                <!--Logo-->
+                <div class="pull-left">
+                    <div class="nav-inner">
+                        <a class="logo" href="/">
+                            <span>Tokyo</span>
+                            <span>Tower</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Menu-->
+                <div class="pull-right menu-content clearfix">
+                    <div class="nav-inner">
+                        <ul class="menu">
+                            <li class="menu-item active">
+                                <a href="#tong-quan" class="active">Tổng quan</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#vi-tri">Vị trí</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#vi-tri">Tiện ích</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#vi-tri">Mặt bằng</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#lien-he">Liên hệ</a>
+                            </li>
+                            <li class="menu-item menu-item-contact">
+                                <a href="tel:0932117596">
+                                    <span><strong>Hotline: 0932.117.596</strong></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End menu-->
+            </div>
+        </nav>
+
+        <div class="slider">
+            <!-- Swiper -->
+            <div id="home-slider" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-wrapper">
+                            <div class="background-wrapper">
+                                <div
+                                    class="background"
+                                    style="background: url({{'assets/images/slider-03.jpg'|theme}});"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-wrapper">
+                            <div class="background-wrapper">
+                                <div
+                                    class="background"
+                                    style="background: url({{'assets/images/slider-03.jpg'|theme}});"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </div>
+        </div>
+
+        <div class="bottom-register">
+            <div class="container">
+                <h3 class="form-title">Đăng ký xem nhà mẫu</h3>
+                <form class="form-inline" action="/" method="post">
+                        <div class="form-group">
+                        <input
+                            type="text"
+                            name="full_name"
+                            required="required"
+                            class="form-control"
+                            placeholder="Họ và tên"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            name="phone"
+                            required="required"
+                            class="form-control"
+                            placeholder="Số điện thoại"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            name="email"
+                            required="required"
+                            class="form-control"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <button type="submit">Đăng ký ngay</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="{{'assets/builds/dist/js/app.js'|theme}}"></script>
+</body>
+</html>

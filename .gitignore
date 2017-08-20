@@ -19,3 +19,5 @@ selenium.php
 nbproject
 
 /.docker
+/node_modules
+/themes/tokyo-tower/assets/builds/*
