@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://tokyo-tower.dev/',
+    'url' => env('APP_URL', 'http://tokyo-tower.dev/'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Ho_Chi_Minh',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'DTYKsUoeNa7Fbb5ThJSk4Dybzpk4Cjvf',
+    'key' => env('APP_KEY', 'DTYKsUoeNa7Fbb5ThJSk4Dybzpk4Cjvf'),
 
     'cipher' => 'AES-256-CBC',
 
